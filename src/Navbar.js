@@ -7,7 +7,7 @@ const Navbar=(props)=>{
      <nav className="navbar navbar-dark bg-dark">
    <div className="container-fluid">
      <a className="navbar-brand">Connect with Matamask</a>
-     <h5 className="navbar-brand">balance: {props.balance} {props.symbol}</h5>
+     {/* <h5 className="navbar-brand">balance: {props.balance} {props.symbol}</h5> */}
      <form className="d-flex"> 
        <h4 className="navbar-brand">account:{props.account}</h4>
      </form>
