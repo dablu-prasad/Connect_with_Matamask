@@ -34,7 +34,7 @@ import {nftaddress} from './config';
     <>
     
       <div className="App">
-      <Navbar account={account} balance={balance} symbol={symbol} name={name}/>
+      <Navbar account={account} balance={balance}/>
       </div>
     
      </>
